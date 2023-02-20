@@ -1,15 +1,14 @@
-import 'package:flutter/material.dart';
-
-class UI_Calculaor extends StatefulWidget {
-  const UI_Calculaor({Key? key}) : super(key: key);
+class UI_Calculator extends StatefulWidget {
+  const UI_Calculator({Key? key}) : super(key: key);
 
   @override
-  State<UI_Calculaor> createState() => _UI_CalculaorState();
+  State<UI_Calculator> createState() => _UI_CalculatorState();
 }
-dynamic value = 0;
-class _UI_CalculaorState extends State<UI_Calculaor> {
+
+class _UI_CalculatorState extends State<UI_Calculator> {
   @override
   Widget build(BuildContext context) {
+
     return Scaffold(
 
       body: SingleChildScrollView(
